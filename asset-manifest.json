@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.js": "/maria-role/static/js/main.0c9f8073.chunk.js",
+    "main.js.map": "/maria-role/static/js/main.0c9f8073.chunk.js.map",
+    "runtime-main.js": "/maria-role/static/js/runtime-main.fcd8998e.js",
+    "runtime-main.js.map": "/maria-role/static/js/runtime-main.fcd8998e.js.map",
+    "static/js/2.469effcb.chunk.js": "/maria-role/static/js/2.469effcb.chunk.js",
+    "static/js/2.469effcb.chunk.js.map": "/maria-role/static/js/2.469effcb.chunk.js.map",
+    "index.html": "/maria-role/index.html",
+    "precache-manifest.233eaf2d8fcef68e3a37cc74d329af8d.js": "/maria-role/precache-manifest.233eaf2d8fcef68e3a37cc74d329af8d.js",
+    "service-worker.js": "/maria-role/service-worker.js",
+    "static/js/2.469effcb.chunk.js.LICENSE.txt": "/maria-role/static/js/2.469effcb.chunk.js.LICENSE.txt",
+    "static/media/background3.jpeg": "/maria-role/static/media/background3.60abe791.jpeg",
+    "static/media/delivery-man.png": "/maria-role/static/media/delivery-man.9308cc54.png",
+    "static/media/double_cellphone_greeting.png": "/maria-role/static/media/double_cellphone_greeting.13183a3a.png",
+    "static/media/logo.png": "/maria-role/static/media/logo.592df802.png",
+    "static/media/welcome_how_it_works_02.png": "/maria-role/static/media/welcome_how_it_works_02.65c0724f.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.fcd8998e.js",
+    "static/js/2.469effcb.chunk.js",
+    "static/js/main.0c9f8073.chunk.js"
+  ]
+}
