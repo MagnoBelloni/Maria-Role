@@ -1,11 +1,6 @@
 import React from 'react';
-<<<<<<< HEAD
-import { Navbar, Container } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import viaCep from '../../services/viaCep';
-=======
-import { Link } from 'react-router-dom';
->>>>>>> 1cce2afa3ea78122aaa7fd812845ae175685e24c
 
 import Img1 from '../../assets/delivery-man.png';
 import Img2 from '../../assets/welcome_how_it_works_02.png';
@@ -22,15 +17,10 @@ const Home: React.FC = () => {
             <NavbarDefault />
             <Main>
                 <Form action="">
-<<<<<<< HEAD
-                    <input placeholder="Digite o CEP para buscar eventos"/>
-                    <button type="submit">Pesquisar</button>
-=======
                     <input placeholder="Digite o CEP para buscar eventos" />
                     <Link to="/Maria-Role/points">
                         <button type="submit">Pesquisar</button>
                     </Link>
->>>>>>> 1cce2afa3ea78122aaa7fd812845ae175685e24c
                 </Form>
             </Main>
 
@@ -40,18 +30,18 @@ const Home: React.FC = () => {
                 <div>
                     <a href="teste">
                         <img src={Img1} alt="" />
-                        <strong>Lorem Ipsun</strong>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur saepe quo, perspiciatis quidem iure architecto voluptatem consequuntur quam laborum dolore animi inventore sed libero numquam unde, voluptas minima vel tenetur?</p>
+                        <strong>Resenha com os amigos</strong>
+                        <p>Com a Maria Rolê você marcar aquela famigerada resenha com seus amigos via chat, a Maria te dá sugestões de ambiente para você aproveitar a para curtir uma boa cerveja gelada, na companhia de quem você gosta. </p>
                     </a>
                     <a href="teste">
                         <img src={Img2} alt="" />
-                        <strong>Lorem Ipsun</strong>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur saepe quo, perspiciatis quidem iure architecto voluptatem consequuntur quam laborum dolore animi inventore sed libero numquam unde, voluptas minima vel tenetur?</p>
+                        <strong>Música ao vivo</strong>
+                        <p>Com ela você também pode escutar música ao vivo nos melhores dias e oportunidades. Ela seleciona o evento baseando-se em seu interesse musical.</p>
                     </a>
                     <a href="teste">
                         <img src={Img3} alt="" />
-                        <strong>Lorem Ipsun</strong>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur saepe quo, perspiciatis quidem iure architecto voluptatem consequuntur quam laborum dolore animi inventore sed libero numquam unde, voluptas minima vel tenetur?</p>
+                        <strong>Som ambiente </strong>
+                        <p>A Maria Rolê também faz indicações dos bares por tipo de som ambiente, para você que prefere uma saída mais intimista.</p>
                     </a>
                 </div>
 
