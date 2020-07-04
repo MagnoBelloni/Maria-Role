@@ -12,9 +12,9 @@ export default createGlobalStyle`
     }
 
     body{
+        -webkit-font-smoothing: antialiased;
         background: #F0F0F0 url(${background});
         background-size: cover;
-        -webkit-font-smoothing: antialiased;
     }
 
     .navbar{

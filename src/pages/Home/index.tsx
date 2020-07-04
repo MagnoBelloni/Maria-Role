@@ -1,35 +1,25 @@
 import React from 'react';
-import { Navbar, Container } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 
-import Logo from '../../assets/logo.png';
 import Img1 from '../../assets/delivery-man.png';
 import Img2 from '../../assets/welcome_how_it_works_02.png';
 import Img3 from '../../assets/double_cellphone_greeting.png';
 
 import { Form, Main, Cards } from './styles';
 
+import NavbarDefault from '../../pages/Navbar/index';
+import FooterDefault from '../../pages/Footer/index';
+
 const Home: React.FC = () => {
     return (
         <>
-            <Navbar fixed="top" variant="dark">
-                <Container>
-                    <Navbar.Brand href="#home">
-                        <img
-                            alt=""
-                            src={Logo}
-                            width="50"
-                            height="50"
-                            className="d-inline-block align-top"
-                        />{' '}
-                    Maria Role
-                    </Navbar.Brand>
-                </Container>
-            </Navbar>
-
+            <NavbarDefault />
             <Main>
                 <Form action="">
                     <input placeholder="Digite o CEP para buscar eventos" />
-                    <button type="submit">Pesquisar</button>
+                    <Link to="/Maria-Role/points">
+                        <button type="submit">Pesquisar</button>
+                    </Link>
                 </Form>
             </Main>
 
@@ -56,15 +46,7 @@ const Home: React.FC = () => {
 
             </Cards>
 
-            <div className="fixed-bottom">
-                <Navbar>
-                    <Container>
-                        @ 2020 Maria Role - Todos os direitos reservados.
-                    </Container>
-                </Navbar>
-            </div>
-
-
+            <FooterDefault />
         </>
     );
 }

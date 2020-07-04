@@ -1,11 +1,9 @@
-import styled, { createGlobalStyle } from 'styled-components';
+import styled from 'styled-components';
 import { shade } from 'polished';
-
-import img from '../../assets/background.jpeg';
 
 export const Main = styled.div`
     margin-left: 25%;
-    margin-top: 5%;
+    margin-top: 15%;
 `;
 
 export const Title = styled.h1`
@@ -13,7 +11,6 @@ export const Title = styled.h1`
   color: #3a3a3a;
   max-width: 450px;
   line-height: 56px;
-
   margin-top: 80px;
 `;
 
