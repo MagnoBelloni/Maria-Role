@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ee3ffcae809f41e7a3092c5fa5bcbccd",
+    "revision": "5ff5e589c079f7563de518bde3a111b6",
     "url": "/Maria-Role/index.html"
   },
   {
-    "revision": "14e892cb4229261bfa28",
-    "url": "/Maria-Role/static/js/2.fb1a807f.chunk.js"
+    "revision": "cbefec346baca0c809de",
+    "url": "/Maria-Role/static/js/2.3b426111.chunk.js"
   },
   {
     "revision": "3453b8997016469371284a28c0e873e2",
-    "url": "/Maria-Role/static/js/2.fb1a807f.chunk.js.LICENSE.txt"
+    "url": "/Maria-Role/static/js/2.3b426111.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "eb72547386bdfc4bfd28",
-    "url": "/Maria-Role/static/js/main.23db050c.chunk.js"
+    "revision": "106883274d283766e440",
+    "url": "/Maria-Role/static/js/main.ca806b8f.chunk.js"
   },
   {
     "revision": "1cc0a36179a4ecaf4cff",
