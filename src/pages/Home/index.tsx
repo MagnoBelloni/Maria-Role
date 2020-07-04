@@ -1,5 +1,7 @@
 import React from 'react';
 import { Navbar, Container } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
+import viaCep from '../../services/viaCep';
 
 import Logo from '../../assets/logo.png';
 import Img1 from '../../assets/delivery-man.png';
@@ -28,7 +30,7 @@ const Home: React.FC = () => {
 
             <Main>
                 <Form action="">
-                    <input placeholder="Digite o CEP para buscar eventos" />
+                    <input placeholder="Digite o CEP para buscar eventos"/>
                     <button type="submit">Pesquisar</button>
                 </Form>
             </Main>
