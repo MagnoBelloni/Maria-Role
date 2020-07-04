@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.js": "/Maria-Role/static/js/main.efc928a2.chunk.js",
-    "main.js.map": "/Maria-Role/static/js/main.efc928a2.chunk.js.map",
+    "main.js": "/Maria-Role/static/js/main.ba9ab4d1.chunk.js",
+    "main.js.map": "/Maria-Role/static/js/main.ba9ab4d1.chunk.js.map",
     "runtime-main.js": "/Maria-Role/static/js/runtime-main.a5177db8.js",
     "runtime-main.js.map": "/Maria-Role/static/js/runtime-main.a5177db8.js.map",
-    "static/js/2.446bf7e7.chunk.js": "/Maria-Role/static/js/2.446bf7e7.chunk.js",
-    "static/js/2.446bf7e7.chunk.js.map": "/Maria-Role/static/js/2.446bf7e7.chunk.js.map",
+    "static/js/2.fb1a807f.chunk.js": "/Maria-Role/static/js/2.fb1a807f.chunk.js",
+    "static/js/2.fb1a807f.chunk.js.map": "/Maria-Role/static/js/2.fb1a807f.chunk.js.map",
     "index.html": "/Maria-Role/index.html",
-    "precache-manifest.65d2840c7bd907a98b69c03fe0b40496.js": "/Maria-Role/precache-manifest.65d2840c7bd907a98b69c03fe0b40496.js",
+    "precache-manifest.04434b08dbdfa78c8fc3d6fd447b13f1.js": "/Maria-Role/precache-manifest.04434b08dbdfa78c8fc3d6fd447b13f1.js",
     "service-worker.js": "/Maria-Role/service-worker.js",
-    "static/js/2.446bf7e7.chunk.js.LICENSE.txt": "/Maria-Role/static/js/2.446bf7e7.chunk.js.LICENSE.txt",
+    "static/js/2.fb1a807f.chunk.js.LICENSE.txt": "/Maria-Role/static/js/2.fb1a807f.chunk.js.LICENSE.txt",
     "static/media/background3.jpeg": "/Maria-Role/static/media/background3.60abe791.jpeg",
     "static/media/delivery-man.png": "/Maria-Role/static/media/delivery-man.9308cc54.png",
     "static/media/double_cellphone_greeting.png": "/Maria-Role/static/media/double_cellphone_greeting.13183a3a.png",
@@ -18,7 +18,7 @@
   },
   "entrypoints": [
     "static/js/runtime-main.a5177db8.js",
-    "static/js/2.446bf7e7.chunk.js",
-    "static/js/main.efc928a2.chunk.js"
+    "static/js/2.fb1a807f.chunk.js",
+    "static/js/main.ba9ab4d1.chunk.js"
   ]
 }
