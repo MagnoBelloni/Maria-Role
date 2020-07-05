@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 
-import { Navbar, Container, Button, Modal, Form } from 'react-bootstrap';
+import { Navbar, Container, Button, Modal, Form, Nav } from 'react-bootstrap';
 
 import Logo from '../../assets/logo.png';
 
@@ -28,6 +28,12 @@ const NavbarDefault: React.FC = () => {
                         Maria Role
                         </Navbar.Brand>
                     </Link>
+                    <Link to="/Maria-Role/">
+                        <Nav.Link href="#home">Home</Nav.Link>
+                    </Link>
+                    <Link to="/Maria-Role/classification">
+                        <Nav.Link href="#classification">Classificação</Nav.Link>
+                    </Link>
                     <Button variant="outline-warning" onClick={handleShow}>Entrar</Button>
                 </Container>
             </Navbar>
@@ -47,8 +53,8 @@ const NavbarDefault: React.FC = () => {
                             <Form.Label>Senha</Form.Label>
                             <Form.Control type="password" placeholder="Digite sua senha" />
                             <div className="d-flex justify-content-between">
-                                <a href="#" className="d-flex justify-content-start">Esqueci minha senha.</a>
-                                <a href="#" className="d-flex justify-content-end">Ainda não tem uma conta? Cadastre-se</a>
+                                <a href="#forgot" className="d-flex justify-content-start">Esqueci minha senha.</a>
+                                <a href="#registry" className="d-flex justify-content-end">Ainda não tem uma conta? Cadastre-se</a>
                             </div>
                         </Form.Group>
                         <div className="d-flex justify-content-end">

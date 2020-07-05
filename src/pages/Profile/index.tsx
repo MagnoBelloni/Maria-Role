@@ -1,6 +1,11 @@
 import React from 'react';
+import {Link} from 'react-router-dom';
 
-import { Row, Col, Container, Card } from 'react-bootstrap';
+import { Row, Col, Card, OverlayTrigger, Tooltip } from 'react-bootstrap';
+import { FiHelpCircle, FiInstagram, FiTwitter } from 'react-icons/fi';
+import { BsStarFill } from 'react-icons/bs';
+import { AiFillFacebook } from 'react-icons/ai';
+import { FcGoogle } from 'react-icons/fc';
 
 import NavbarDefault from '../Navbar';
 import FooterDefault from '../Footer';
@@ -20,16 +25,25 @@ const Profile: React.FC = () => {
                             </div>
 
                             <Card.Body style={{ color: '#000' }}>
-                                <Card.Title>Fulano da Silva - Rei do Camarote</Card.Title>
+                                <Card.Title>Fulano da Silva - Rei do Camarote <span role="img" aria-label="Coroa">👑</span></Card.Title>
                                 <hr />
                                 <Card.Text>
-                                    Consquistei o titulo de Rei do Camarote após participar de mais de 100 eventos, tenham consciencia não saiam em rolês, em epoca de COVID 😘.<br /> Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim animi, nulla commodi dolorem soluta velit. Suscipit adipisci incidunt necessitatibus omnis sint ad amet, molestias ducimus rem mollitia! Repudiandae, quos ad.
+                                    Consquistei o titulo de Rei do Camarote após participar de mais de 100 eventos, tenham consciencia não saiam em rolês, em epoca de COVID <span role="img" aria-label="Beijo">😘</span>.
+                                    <br /> Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim animi, nulla commodi dolorem soluta velit. Suscipit adipisci incidunt necessitatibus omnis sint ad amet, molestias ducimus rem mollitia! Repudiandae, quos ad.
                                 </Card.Text>
                                 <hr />
                                 <Card.Text>
+                                    <p><b>Classificação:</b> Rei do Camarote <BsStarFill className="estrela"/> <BsStarFill className="estrela"/> <BsStarFill className="estrela"/> &nbsp;
+                                        <OverlayTrigger overlay={<Tooltip id="help">Temos uma Classificação de nossos usuários ;) Clique para saber mais.</Tooltip>}>
+                                            <Link to="/Maria-Role/classification">
+                                                <FiHelpCircle/>
+                                            </Link>
+                                        </OverlayTrigger>
+                                     </p>
+                                    <p><b>Nivel no Ranking:</b> #1º</p>
                                     <p><b>Data do Ultimo Rolê:</b> 20/01/2020</p>
                                     <p><b>Número de Rolês:</b> 264</p>
-                                    <p><b>Nivel no Ranking:</b> #1º</p>
+                                    <p><b>Conectado nas redes: </b> <AiFillFacebook style={{color: 'blue'}}/>&nbsp;<FiInstagram />&nbsp;<FiTwitter />&nbsp;<FcGoogle /></p>
                                 </Card.Text>
                             </Card.Body>
                         </Card>
@@ -38,21 +52,21 @@ const Profile: React.FC = () => {
                     <Col xs={12} md={9}>
                         <Card>
                             <Card.Body style={{ color: '#000' }}>
-                                <Card.Title>História</Card.Title>
+                                <Card.Title><h1>História</h1></Card.Title>
                                 <hr />
                                 <Card.Text >
-                                    <h2>Ultimos rolês</h2>
-                                    <ul style={{marginLeft: '20px'}}>
+                                    <h3>Ultimos rolês</h3>
+                                    <ul style={{ marginLeft: '20px' }}>
                                         <li>Bar Itapeva</li>
                                         <li>Karaoke - Bar Itapeva - 20/01/2020</li>
-                                        <li>Karaoke - Bar Itapeva - 10/01/2020</li>
+                                        <li>Rodizio de Pizza - 26/07/2019</li>
                                         <li>Karaoke - Bar Itapeva - 05/01/2020</li>
                                         <li>Karaoke - Bar Itapeva - 02/01/2020</li>
                                         <li>Karaoke - Bar Itapeva - 01/01/2020</li>
                                     </ul>
-                                
-                                    <h2>Informação de consumo</h2>
-                                    <ul style={{marginLeft: '20px'}}>
+
+                                    <h3>Informação de consumo</h3>
+                                    <ul style={{ marginLeft: '20px' }}>
                                         <li>Brahma</li>
                                         <li>Budwaiser</li>
                                         <li>Skol</li>

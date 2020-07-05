@@ -1,6 +1,7 @@
 import { createGlobalStyle } from 'styled-components';
+import { shade } from 'polished';
 
-import background from '../assets/background3.jpeg'
+import background from '../assets/background.jpeg'
 
 export default createGlobalStyle`
     * {
@@ -25,6 +26,14 @@ export default createGlobalStyle`
         color: #F0F0F0;
     }
 
+    .nav-link{
+        color: #FFC500;
+        text-decoration: none;
+    }
+    .nav-link:hover{
+        color: ${shade(0.3, '#FFC500')};
+    }
+    
     #root {
         margin: 0 auto;
         padding: 70px 20px;

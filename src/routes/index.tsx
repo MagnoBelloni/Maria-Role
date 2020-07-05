@@ -5,6 +5,7 @@ import Home from '../pages/Home';
 import Points from '../pages/Points';
 import Point from '../pages/Point';
 import Profile from '../pages/Profile';
+import Classification from '../pages/Classification';
 
 const Routes: React.FC = () => (
     <Switch>
@@ -12,6 +13,7 @@ const Routes: React.FC = () => (
         <Route path="/Maria-Role/points" component={Points} />
         <Route path="/Maria-Role/point" component={Point} />
         <Route path="/Maria-Role/profile" component={Profile} />
+        <Route path="/Maria-Role/classification" component={Classification} />
     </Switch>
 );
 

@@ -1,5 +1,4 @@
 import styled from 'styled-components';
-import { shade } from 'polished';
 
 export const Main = styled.div`
     margin-top: 40px;
@@ -10,5 +9,9 @@ export const Main = styled.div`
         width: 400px;
         height: 400px;
         border-radius: 50%;
+    }
+
+    .estrela{
+        color: yellow;
     }
 `;
