@@ -70,19 +70,18 @@ export const Cards = styled.div`
   div{
     display: flex;
 
-    a {
+    div {
       margin: 20px 20px;
       background: #fff;
       border-radius: 5px;
       width: 100%;
       padding: 24px;
       display: block;
-      text-decoration: none;
 
       align-items: center;
       transition: transform 0.2s;
 
-      & + a {
+      & + div {
         margin-left: 50px;
       }
 
@@ -91,9 +90,9 @@ export const Cards = styled.div`
       }
 
       img {
-        width: 64px;
-        height: 64px;
-        border-radius: 50%;
+        width: 100px;
+        height: 100px;
+        align-content: center;
       }
 
       strong {

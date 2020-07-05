@@ -1,10 +1,9 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import viaCep from '../../services/viaCep';
 
-import Img1 from '../../assets/delivery-man.png';
-import Img2 from '../../assets/welcome_how_it_works_02.png';
-import Img3 from '../../assets/double_cellphone_greeting.png';
+import Img1 from '../../assets/icone role.png';
+import Img2 from '../../assets/icone musicaaovivo.png';
+import Img3 from '../../assets/iconemusicamb.png';
 
 import { Form, Main, Cards } from './styles';
 
@@ -28,21 +27,27 @@ const Home: React.FC = () => {
                 <h2>Como funciona o Maria Rolê?</h2>
                 <br />
                 <div>
-                    <a href="teste">
-                        <img src={Img1} alt="" />
+                    <div>
+                        <div>
+                            <img src={Img1} alt="Brinde" />
+                        </div>
                         <strong>Resenha com os amigos</strong>
                         <p>Com a Maria Rolê você marcar aquela famigerada resenha com seus amigos via chat, a Maria te dá sugestões de ambiente para você aproveitar a para curtir uma boa cerveja gelada, na companhia de quem você gosta. </p>
-                    </a>
-                    <a href="teste">
-                        <img src={Img2} alt="" />
+                    </div>
+                    <div>
+                        <div>
+                            <img src={Img2} alt="Violão" />    
+                        </div>
                         <strong>Música ao vivo</strong>
                         <p>Com ela você também pode escutar música ao vivo nos melhores dias e oportunidades. Ela seleciona o evento baseando-se em seu interesse musical.</p>
-                    </a>
-                    <a href="teste">
-                        <img src={Img3} alt="" />
+                    </div>
+                    <div>
+                        <div>
+                            <img src={Img3} alt="Notas músicais" />
+                        </div>
                         <strong>Som ambiente </strong>
                         <p>A Maria Rolê também faz indicações dos bares por tipo de som ambiente, para você que prefere uma saída mais intimista.</p>
-                    </a>
+                    </div>
                 </div>
 
             </Cards>

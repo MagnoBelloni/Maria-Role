@@ -17,7 +17,6 @@ export const Main = styled.div`
 `;
 
 export const Rewards = styled.div`
-    /* max-width: 700px; */
 
     p {
         background: #fff;
