@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "5ff5e589c079f7563de518bde3a111b6",
+    "revision": "a1ea9bc0126bb9859f7847e1e3bcedb0",
     "url": "/Maria-Role/index.html"
   },
   {
-    "revision": "cbefec346baca0c809de",
-    "url": "/Maria-Role/static/js/2.3b426111.chunk.js"
+    "revision": "ce3f6cdcd7b4ef319125",
+    "url": "/Maria-Role/static/js/2.d1355eac.chunk.js"
   },
   {
     "revision": "3453b8997016469371284a28c0e873e2",
-    "url": "/Maria-Role/static/js/2.3b426111.chunk.js.LICENSE.txt"
+    "url": "/Maria-Role/static/js/2.d1355eac.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "106883274d283766e440",
-    "url": "/Maria-Role/static/js/main.ca806b8f.chunk.js"
+    "revision": "eae5fbeab18d3c4bfa1a",
+    "url": "/Maria-Role/static/js/main.57e7f00c.chunk.js"
   },
   {
     "revision": "1cc0a36179a4ecaf4cff",
@@ -21,7 +21,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   },
   {
     "revision": "60abe7919432b3d3bf87fe2cb38da529",
-    "url": "/Maria-Role/static/media/background3.60abe791.jpeg"
+    "url": "/Maria-Role/static/media/background.60abe791.jpeg"
   },
   {
     "revision": "9308cc54b274747e41f6df9d7ebbb889",
