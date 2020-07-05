@@ -31,21 +31,21 @@ const Home: React.FC = () => {
                         <div>
                             <img src={Img1} alt="Brinde" />
                         </div>
-                        <strong>Resenha com os amigos</strong>
+                        <strong style={{color: '#FFC500'}}>Resenha com os amigos</strong>
                         <p>Com a Maria Rolê você marcar aquela famigerada resenha com seus amigos via chat, a Maria te dá sugestões de ambiente para você aproveitar a para curtir uma boa cerveja gelada, na companhia de quem você gosta. </p>
                     </div>
                     <div>
                         <div>
                             <img src={Img2} alt="Violão" />    
                         </div>
-                        <strong>Música ao vivo</strong>
+                        <strong style={{color: '#FFC500'}}>Música ao vivo</strong>
                         <p>Com ela você também pode escutar música ao vivo nos melhores dias e oportunidades. Ela seleciona o evento baseando-se em seu interesse musical.</p>
                     </div>
                     <div>
                         <div>
                             <img src={Img3} alt="Notas músicais" />
                         </div>
-                        <strong>Som ambiente </strong>
+                        <strong style={{color: '#FFC500'}}>Som ambiente </strong>
                         <p>A Maria Rolê também faz indicações dos bares por tipo de som ambiente, para você que prefere uma saída mais intimista.</p>
                     </div>
                 </div>

@@ -56,9 +56,7 @@ export const Form = styled.form`
 export const Cards = styled.div`
   margin-top: 80px;
   margin-left: 20%;
-
-  max-width: 1200px;
-  
+  max-width: 1200px;  
   background: #F0F0F0;
 
   h2{
@@ -97,12 +95,11 @@ export const Cards = styled.div`
 
       strong {
         font-size: 20px;
-        color: #3d3d4d !important;
       }
 
       p {
+        color: #000 !important;
         font-size: 18px;
-        color: #a8a8b3 !important;
         margin-top: 4px;
       }
     
