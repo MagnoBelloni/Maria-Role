@@ -1,7 +1,9 @@
 import React from 'react';
 import Carousel from 'react-bootstrap/Carousel';
 import { Link } from 'react-router-dom';
-import { Card, Button } from 'react-bootstrap';
+import { Card, Button, OverlayTrigger, Tooltip } from 'react-bootstrap';
+import { FiHelpCircle } from 'react-icons/fi';
+import { BsStarFill } from 'react-icons/bs';
 import { Main } from './styles';
 
 const Point: React.FC = () =>{
@@ -17,6 +19,14 @@ const Point: React.FC = () =>{
                     
                     <p><b>Endereço:</b> Av. São João, 677 - Centro Histórico de São Paulo, São Paulo - SP, 01036-000</p>
                     <p><b>Telefone:</b> (11) 94827-0528</p>
+
+                    <p><b>Classificação:</b> bem requisitado <BsStarFill className="estrela"/> <BsStarFill className="estrela"/> <BsStarFill className="estrela"/> <BsStarFill className="estrela"/> &nbsp;
+                                        <OverlayTrigger overlay={<Tooltip id="help">Temos uma Classificação de nossos Points.</Tooltip>}>
+                                            <Link to="/Maria-Role/classification">
+                                                <FiHelpCircle/>
+                                            </Link>
+                                        </OverlayTrigger>
+                                     </p>
                     <Carousel>
                         <Carousel.Item>
                             <img
