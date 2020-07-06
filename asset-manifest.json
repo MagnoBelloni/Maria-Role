@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.js": "/Maria-Role/static/js/main.20b144f8.chunk.js",
-    "main.js.map": "/Maria-Role/static/js/main.20b144f8.chunk.js.map",
+    "main.js": "/Maria-Role/static/js/main.7c1d532a.chunk.js",
+    "main.js.map": "/Maria-Role/static/js/main.7c1d532a.chunk.js.map",
     "runtime-main.js": "/Maria-Role/static/js/runtime-main.a5177db8.js",
     "runtime-main.js.map": "/Maria-Role/static/js/runtime-main.a5177db8.js.map",
     "static/js/2.f58c5643.chunk.js": "/Maria-Role/static/js/2.f58c5643.chunk.js",
     "static/js/2.f58c5643.chunk.js.map": "/Maria-Role/static/js/2.f58c5643.chunk.js.map",
     "index.html": "/Maria-Role/index.html",
-    "precache-manifest.d15949a6a502b855f2b45fa785e82b4c.js": "/Maria-Role/precache-manifest.d15949a6a502b855f2b45fa785e82b4c.js",
+    "precache-manifest.cdc6859b0efff5c79a88db9ffce0aa81.js": "/Maria-Role/precache-manifest.cdc6859b0efff5c79a88db9ffce0aa81.js",
     "service-worker.js": "/Maria-Role/service-worker.js",
     "static/js/2.f58c5643.chunk.js.LICENSE.txt": "/Maria-Role/static/js/2.f58c5643.chunk.js.LICENSE.txt",
     "static/media/background.jpeg": "/Maria-Role/static/media/background.60abe791.jpeg",
@@ -20,6 +20,6 @@
   "entrypoints": [
     "static/js/runtime-main.a5177db8.js",
     "static/js/2.f58c5643.chunk.js",
-    "static/js/main.20b144f8.chunk.js"
+    "static/js/main.7c1d532a.chunk.js"
   ]
 }
