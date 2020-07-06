@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.js": "/Maria-Role/static/js/main.950c3355.chunk.js",
-    "main.js.map": "/Maria-Role/static/js/main.950c3355.chunk.js.map",
+    "main.js": "/Maria-Role/static/js/main.20b144f8.chunk.js",
+    "main.js.map": "/Maria-Role/static/js/main.20b144f8.chunk.js.map",
     "runtime-main.js": "/Maria-Role/static/js/runtime-main.a5177db8.js",
     "runtime-main.js.map": "/Maria-Role/static/js/runtime-main.a5177db8.js.map",
-    "static/js/2.71279c11.chunk.js": "/Maria-Role/static/js/2.71279c11.chunk.js",
-    "static/js/2.71279c11.chunk.js.map": "/Maria-Role/static/js/2.71279c11.chunk.js.map",
+    "static/js/2.f58c5643.chunk.js": "/Maria-Role/static/js/2.f58c5643.chunk.js",
+    "static/js/2.f58c5643.chunk.js.map": "/Maria-Role/static/js/2.f58c5643.chunk.js.map",
     "index.html": "/Maria-Role/index.html",
-    "precache-manifest.0252d55d6da83dabc06ce5b22165d704.js": "/Maria-Role/precache-manifest.0252d55d6da83dabc06ce5b22165d704.js",
+    "precache-manifest.d15949a6a502b855f2b45fa785e82b4c.js": "/Maria-Role/precache-manifest.d15949a6a502b855f2b45fa785e82b4c.js",
     "service-worker.js": "/Maria-Role/service-worker.js",
-    "static/js/2.71279c11.chunk.js.LICENSE.txt": "/Maria-Role/static/js/2.71279c11.chunk.js.LICENSE.txt",
+    "static/js/2.f58c5643.chunk.js.LICENSE.txt": "/Maria-Role/static/js/2.f58c5643.chunk.js.LICENSE.txt",
     "static/media/background.jpeg": "/Maria-Role/static/media/background.60abe791.jpeg",
     "static/media/icone musicaaovivo.png": "/Maria-Role/static/media/icone musicaaovivo.431da548.png",
     "static/media/icone role.png": "/Maria-Role/static/media/icone role.1619a22a.png",
@@ -19,7 +19,7 @@
   },
   "entrypoints": [
     "static/js/runtime-main.a5177db8.js",
-    "static/js/2.71279c11.chunk.js",
-    "static/js/main.950c3355.chunk.js"
+    "static/js/2.f58c5643.chunk.js",
+    "static/js/main.20b144f8.chunk.js"
   ]
 }
