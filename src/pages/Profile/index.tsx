@@ -25,15 +25,14 @@ const Profile: React.FC = () => {
                             </div>
 
                             <Card.Body style={{ color: '#000' }}>
-                                <Card.Title>Fulano da Silva - Rei do Camarote <span role="img" aria-label="Coroa">👑</span></Card.Title>
+                                <Card.Title>Fulano da Silva - Rei do Rolê <span role="img" aria-label="Coroa">👑</span></Card.Title>
                                 <hr />
                                 <Card.Text>
-                                    Consquistei o titulo de Rei do Camarote após participar de mais de 100 eventos, tenham consciencia não saiam em rolês, em epoca de COVID <span role="img" aria-label="Beijo">😘</span>.
-                                    <br /> Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim animi, nulla commodi dolorem soluta velit. Suscipit adipisci incidunt necessitatibus omnis sint ad amet, molestias ducimus rem mollitia! Repudiandae, quos ad.
+                                    Meu nome é Fulando da Silva e eu consquistei o titulo de Rolezeiro III após participar de mais de 100 eventos, tenham consciencia não saiam em rolês, em epoca de COVID <span role="img" aria-label="Beijo">😘</span>.
                                 </Card.Text>
                                 <hr />
                                 <Card.Text>
-                                    <p><b>Classificação:</b> Rei do Camarote <BsStarFill className="estrela"/> <BsStarFill className="estrela"/> <BsStarFill className="estrela"/> &nbsp;
+                                    <p><b>Classificação:</b> Rolezeiro III &nbsp;
                                         <OverlayTrigger overlay={<Tooltip id="help">Temos uma Classificação de nossos usuários ;) Clique para saber mais.</Tooltip>}>
                                             <Link to="/Maria-Role/classification">
                                                 <FiHelpCircle/>

@@ -17,7 +17,7 @@ const Points: React.FC = () => {
                 <Card.Body>
                     <Card.Title>Bar Itapeva - 4,7<GoStar color="yellow"/></Card.Title>
                     <Card.Text>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim animi, nulla commodi dolorem soluta velit. Suscipit adipisci incidunt necessitatibus omnis sint ad amet, molestias ducimus rem mollitia! Repudiandae, quos ad.
+                        Reduto de intelectuais, músicos e políticos nas décadas de 50 e 60, é famoso pelo chope, petiscos e música.
                     </Card.Text>
                     <Link to="/Maria-Role/point">
                         <Button className="knowmore" variant="primary">Saiba Mais</Button>

@@ -30,27 +30,47 @@ const Classification: React.FC = () => {
                                 </div>
                             </p>
                             <p>
-                                <img src={medalha} alt=""/>
-                                <img src={medalha} alt=""/>
-                                <img src={medalha} alt=""/>
+                                <img src={medalha} alt="" />
+                                <img src={medalha} alt="" />
+                                <img src={medalha} alt="" />
                                 <div>
-                                    <strong>Rei do Rolê</strong>
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos distinctio ducimus, neque alias aperiam facere aliquid dolores deserunt voluptatibus, soluta unde et inventore consectetur a laudantium qui illum ab quam?</p>
+                                    <strong>Rolezeiro III</strong>
+                                    <p>
+                                        Ganha status mais o selo de rolezeiro número #3.
+                                        <br />
+                                        Cupons de desconto no Zé Delivery  cada 5 dias.
+                                        <br />
+                                        Promoções a cada 15 dias nos estabelecimentos parceiros.
+                                        <br />
+                                        Promoções exclusivas da Ambev.
+                                        <br />
+                                        E uma  cerveja grátis  por fim de semana.
+                                    </p>
                                 </div>
                             </p>
                             <p>
-                                <img src={medalha} alt=""/>
-                                <img src={medalha} alt=""/>
+                                <img src={medalha} alt="" />
+                                <img src={medalha} alt="" />
                                 <div>
-                                    <strong>Revolucionaro dos Rolês</strong>
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod perspiciatis ea sit voluptates repellat vel officiis voluptatibus consequatur fuga ratione laborum, rerum veniam vitae ipsum libero eligendi incidunt temporibus minima!</p>
+                                    <strong>Rolezeiro II</strong>
+                                    <p>
+                                        O usuário ganha o status de Rolezeiro número #2.
+                                        <br />
+                                        Cupons semanais de desconto no Zé Delivery, promoções exclusivas da Ambev.
+                                        <br />
+                                        E uma cerveja grátis  a cada mês no bar escolhido para o rolê.
+                                    </p>    
                                 </div>
                             </p>
                             <p>
-                                <img src={medalha} alt=""/>
+                                <img src={medalha} alt="" />
                                 <div>
-                                    <strong>Eu sou Rolezeiro(a)</strong>
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius ullam voluptatum expedita ad perferendis architecto dolor id eum quam? Iste amet beatae vitae architecto, delectus unde doloribus modi deleniti nulla!</p>
+                                    <strong>Rolezeiro I</strong>
+                                    <p>
+                                        O usuário ganha o status de Rolezeiro número 1#.
+                                        <br />
+                                        Cupons de desconto no Zé Delivery.
+                                    </p>
                                 </div>
                             </p>
                         </Rewards>
